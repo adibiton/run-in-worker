@@ -1,8 +1,8 @@
 {
   "name": "run-in-worker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small module that enable running functions on (html5) worker",
-  "main": "worker.js",
+  "main": "index.js",
   "keywords": [],
   "author": "Adi Biton",
   "license": "MIT"
