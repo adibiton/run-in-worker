@@ -1,6 +1,6 @@
 {
   "name": "run-in-worker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A small module that enable running functions on (html5) worker",
   "main": "index.js",
   "keywords": [],
