@@ -13,8 +13,8 @@ function add(a, b){
     return a + b;
 }
 
-var addInWorker = worker.createBGTask(add);
+var bgAdd = worker.createBGTask(add);
 
 console.log('Adding on main thread, 3 + 7 = ', add(3,7));
-console.log('Adding on web worker thread, 3 + 7 = ', addInWorker(3,7));
+console.log('Adding on web worker thread, 3 + 7 = ', bgAdd(3,7));
 ```
